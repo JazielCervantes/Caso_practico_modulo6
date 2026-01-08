@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Usuarios</title>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <style>
+    h1 {
+      background-color: #0c0466;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      color: rgb(41, 120, 33);
+    }
+    .user-card {
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      background-color: #699ccc;
+      text-align: center;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Lista de Usuarios</h1>
+  <div id="user-container"></div>
+
+  <script src="./Model/UserModel.js"></script>
+  <script src="./View/UserView.js"></script>
+  <script src="./Controller/UserController.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
